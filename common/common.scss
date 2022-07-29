@@ -1,7 +1,7 @@
 // Reactions
 
 .discourse-reactions-double-button {
-  border-radius: 50px;
+  border-radius: #{$br-button};
   background: var(--primary-very-low) !important;
 }
 
