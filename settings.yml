@@ -1,0 +1,4 @@
+border_radius_button: 
+  default: "2em"
+  description:
+    en: "To fit FKB Pro theme, use the same border radius."
