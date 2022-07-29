@@ -1,0 +1,10 @@
+.discourse-reactions-counter:not(.discourse-reactions-double-button .only-like) {
+  position: absolute;
+  bottom: -3px;
+  right: 10px;
+}
+
+.fake-reaction {
+  position: absolute;
+  left: 10px !important;
+}

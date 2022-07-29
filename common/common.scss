@@ -1,0 +1,41 @@
+// Reactions
+
+.discourse-reactions-double-button {
+  border-radius: 50px;
+  background: var(--primary-very-low) !important;
+}
+
+.discourse-reactions-counter.only-like .reactions-counter {
+  padding-right: 7.5px;
+}
+
+.discourse-reactions-counter.only-like .reactions-counter {
+  color: var(--primary-medium);
+}
+
+.discourse-reactions-counter {
+  padding: 0 10px 0 0;
+}
+
+.who-liked {
+  display: none;
+}
+
+.discourse-reactions-actions.custom-reaction-used.has-reactions.has-reacted,
+.discourse-reactions-actions.has-reactions.has-reacted.has-used-main-reaction,
+.discourse-reactions-actions:not(.my-post),
+.discourse-reactions-actions.my-post {
+  margin-right: 0.5em;
+}
+
+.topic-post nav.post-controls {
+  .actions {
+    button {
+      &.btn-toggle-reaction-like {
+        svg {
+          color: var(--love);
+        }
+      }
+    }
+  }
+}
